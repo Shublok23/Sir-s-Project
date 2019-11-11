@@ -56,8 +56,6 @@ public class MyServlet extends HttpServlet {
 		String email = request.getParameter("email");
 		String pass = request.getParameter("pass");
 
-
-
 		w.setName(name);
 		w.setContact(contact);
 		w.setEmail(email);
